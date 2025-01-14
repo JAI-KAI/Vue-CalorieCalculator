@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-6">
+    <div class="mb-6 overflow-y-auto" style="height: 452px;">
         <!-- 類別名稱 -->
         <h2 class="text-2xl font-semibold text-gray-700 text-center mb-4">{{ foodItem.category }}</h2>
         <ul class="space-y-6">
