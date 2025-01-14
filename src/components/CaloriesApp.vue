@@ -7,7 +7,7 @@
             <!-- 包裹子組件的白色框 -->
             <div class="p-6 bg-white rounded-lg shadow">
                 <!-- FoodList 子組件 -->
-                <FoodList :foodItem="foodCategories[currentIndex]" @update-total="totalCalories"/>
+                <FoodList :foodItem="foodCategories[currentIndex]" @update-total="totalCalories" ref="scrollable" />
 
                 <!-- Buttons -->
                 <div class="flex justify-between space-x-4 mb-6">
@@ -106,6 +106,7 @@ export default {
             } else {
                 this.currentIndex = 0;
             }
+            this.$refs.scrollable.$el.scrollTop = 0
         },
         doReset() {
             this.foodCategories.forEach(category => {
@@ -113,6 +114,7 @@ export default {
                     food.weight = ""
                 })
             })
+            this.$refs.scrollable.$el.scrollTop = 0
             this.currentIndex = 0;
             this.total = 0;
         },
