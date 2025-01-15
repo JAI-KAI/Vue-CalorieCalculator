@@ -42,10 +42,5 @@ export default {
 
         }
     },
-    methods: {
-        updateTotal() {
-            this.$emit('update-total')
-        }
-    }
 }
 </script>
