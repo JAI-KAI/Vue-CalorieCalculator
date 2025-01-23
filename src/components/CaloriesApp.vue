@@ -73,6 +73,7 @@ export default {
                         { name: "希臘優格", caloriesPerGram: 0.59, weight: "" },
                         { name: "雞蛋", caloriesPerGram: 1.55, weight: "" },
                         { name: "豆腐", caloriesPerGram: 0.76, weight: "" },
+                        { name: "豆漿", caloriesPerGram: 0.54, weight: "" },
                         { name: "蛋白粉", caloriesPerGram: 4.00, weight: "" },
                         { name: "鷹嘴豆", caloriesPerGram: 1.64, weight: "" },
                     ]
