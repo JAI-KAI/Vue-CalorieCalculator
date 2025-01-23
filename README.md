@@ -4,4 +4,4 @@
 - Vite  
 - option API    
 - Tailwind CSS  
-### GitHub Pages: 　https://jai-kai.github.io/Vue-CalorieCalculator/
+### GitHub Pages: https://jai-kai.github.io/Vue-CalorieCalculator/
