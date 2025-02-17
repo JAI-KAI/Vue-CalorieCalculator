@@ -3,5 +3,6 @@
 - Vue3  
 - Vite  
 - Option API    
-- Tailwind CSS  
+- Tailwind CSS
+- GitHub Pages (gh-pages) 
 ### GitHub Pages: https://jai-kai.github.io/Vue-CalorieCalculator/
